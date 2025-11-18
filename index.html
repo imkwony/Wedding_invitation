@@ -1,11 +1,28 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
   <head>
     <meta charset="utf-8" />
-    <title>weddingtest</title>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=0"
+    />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:title"
+      content="<%= GROOM_FULLNAME %> ❤️ <%= BRIDE_FULLNAME %> 결혼합니다."
+    />
+    <meta property="og:image" content="/preview_image.png" />
+    <meta property="og:url" content="%BASE_URL%/" />
+    <meta property="og:description" content="<%= DESCRIPTION %>" />
+    <link rel="preload" href="/MapoGoldenPierA.woff" as="font" crossorigin />
+    <link rel="preload" href="/AlluraRegular.woff" as="font" crossorigin />
+    <link rel="manifest" href="/manifest.json" />
+    <link rel="icon" href="/favicon.ico" />
+    <link rel="stylesheet" href="/font.css" />
+    <title><%= GROOM_FULLNAME %> ❤️ <%= BRIDE_FULLNAME %> 결혼합니다.</title>
   </head>
   <body>
-    <h1>weddingtest</h1>
-    <p>GitHub Pages로 만든 테스트 페이지임</p>
+    <div id="root"></div>
+    <script type="module" src="/src/index.tsx"></script>
   </body>
 </html>
