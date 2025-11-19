@@ -15,6 +15,8 @@ import {
 
 const distFolder = "build"
 
+/* 
+// 이전 base 로직
 let base = "/"
 
 try {
@@ -23,6 +25,9 @@ try {
 } catch (e) {
   base = pkg.homepage || "/"
 }
+*/
+const base = "/weddingtest/"
+
 
 // https://vite.dev/config/
 export default defineConfig({
