@@ -26,7 +26,7 @@ try {
   base = pkg.homepage || "/"
 }
 */
-const base = "/weddingtest/"
+const base = "./"
 
 
 // https://vite.dev/config/
