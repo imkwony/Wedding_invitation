@@ -11,6 +11,8 @@ import ktalkIcon from "../../icons/ktalk-icon.png"
 import { LazyDiv } from "../lazyDiv"
 import { useKakao } from "../store"
 
+const FULL_WEB_URL = import.meta.env.VITE_SERVER_URL // 예: "https://imkwony.github.io/weddingtest/"
+const IMG_URL = FULL_WEB_URL + "/preview_image.png" // 예: "https://imkwony.github.io/weddingtest/preview_image.png"
 const baseUrl = import.meta.env.BASE_URL
 
 export const ShareButton = () => {
@@ -62,6 +64,10 @@ export const ShareButton = () => {
               {
                 title: "초대장 보기",
                 link: {
+                  mobileWebUrl: FULL_WEB_URL,
+                  webUrl: FULL_WEB_URL,
+                /*
+                link: {
                   mobileWebUrl:
                     window.location.protocol +
                     "//" +
@@ -72,6 +78,7 @@ export const ShareButton = () => {
                     "//" +
                     window.location.host +
                     baseUrl,
+                    */
                 },
               },
             ],
