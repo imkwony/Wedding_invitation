@@ -1,0 +1,48 @@
+name: Deploy
+
+on:
+  push:
+    branches: ["main", "251119"] # 배포를 원하는 모든 브랜치 지정
+  workflow_dispatch:
+
+permissions:
+  contents: write # 파일 쓰기 권한이 필요합니다 (기존 'read'에서 수정됨)
+  pages: write
+  id-token: write
+
+jobs:
+  deploy:
+    environment:
+      name: github-pages
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5 # 최신 버전을 사용합니다.
+
+      - name: Use Node.js 22.x
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22.x
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build and inject environment variables 🚀
+        run: npm run build
+        # 🌟 핵심: Secrets과 Vars를 빌드 단계의 환경 변수로 직접 주입
+        env:
+          VITE_NAVER_MAP_CLIENT_ID: ${{ secrets.VITE_NAVER_MAP_CLIENT_ID }}
+          VITE_KAKAO_SDK_JS_KEY: ${{ secrets.VITE_KAKAO_SDK_JS_KEY }}
+          VITE_SERVER_URL: ${{ vars.VITE_SERVER_URL }}
+          VITE_STATIC_ONLY: ${{ vars.VITE_STATIC_ONLY }}
+
+      - name: Deploy to gh-pages
+        # 📌 JamesIves 액션을 사용하여 더 간결하게 배포합니다.
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          branch: gh-pages
+          folder: build # 👈 빌드 결과 폴더를 확인하세요. (Vite의 기본값은 dist입니다. 만약 build라면 build로 수정)
+          clean: true
+          token: ${{ secrets.GITHUB_TOKEN }}
