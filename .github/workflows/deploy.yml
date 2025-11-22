@@ -43,6 +43,6 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           branch: gh-pages
-          folder: build # 👈 빌드 결과 폴더를 확인하세요. (Vite의 기본값은 dist입니다. 만약 build라면 build로 수정)
+          folder: build # 👈 (Vite의 기본값은 dist입니다. 만약 build라면 build로 수정)
           clean: true
           token: ${{ secrets.GITHUB_TOKEN }}
