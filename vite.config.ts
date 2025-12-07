@@ -31,7 +31,7 @@ weddingtest 환경에서는 아래와 같이 설정
 const base = "./"
 */
 
-const base = "/Wedding_invitation/"
+const base = ""
 
 
 // https://vite.dev/config/
