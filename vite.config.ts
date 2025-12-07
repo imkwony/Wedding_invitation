@@ -33,6 +33,7 @@ const base = "./"
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: '/Wedding_invitation/',
   plugins: [
     react(),
     svgr(),
@@ -58,5 +59,5 @@ export default defineConfig({
   ],
   server: { port: 3000 },
   build: { outDir: distFolder },
-  base,
+  //base,
 })
