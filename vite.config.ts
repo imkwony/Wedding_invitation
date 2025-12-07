@@ -26,12 +26,9 @@ try {
   base = pkg.homepage || "/"
 }
 */
-/*
-weddingtest 환경에서는 아래와 같이 설정
-const base = "./"
-*/
 
-const base = ""
+const base = "./"
+// const base = "/Wedding_invitation/"
 
 
 // https://vite.dev/config/
