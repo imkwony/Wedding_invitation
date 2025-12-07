@@ -11,8 +11,8 @@ import ktalkIcon from "../../icons/ktalk-icon.png"
 import { LazyDiv } from "../lazyDiv"
 import { useKakao } from "../store"
 
-const FULL_WEB_URL = import.meta.env.VITE_SERVER_URL // 예: "https://imkwony.github.io/weddingtest/"
-const IMG_URL = FULL_WEB_URL + "/preview_image.png" // 예: "https://imkwony.github.io/weddingtest/preview_image.png"
+const FULL_WEB_URL = import.meta.env.VITE_SERVER_URL // 예: "https://imkwony.github.io/Wedding_invitation/"
+const IMG_URL = FULL_WEB_URL + "/preview_image.png" // 예: "https://imkwony.github.io/Wedding_invitation/preview_image.png"
 const baseUrl = import.meta.env.BASE_URL
 
 export const ShareButton = () => {
@@ -31,7 +31,7 @@ export const ShareButton = () => {
             address: SHARE_ADDRESS,
             addressTitle: SHARE_ADDRESS_TITLE,
             content: {
-              title: `${GROOM_FULLNAME} ❤️ ${BRIDE_FULLNAME}의 결혼식에 초대합니다.`,
+              title: `💑 ${GROOM_FULLNAME} ❤️ ${BRIDE_FULLNAME}의 결혼식에 초대합니다.`,
               description:
                 WEDDING_DATE.format(WEDDING_DATE_FORMAT) + "\n" + LOCATION,
               imageUrl: IMG_URL,

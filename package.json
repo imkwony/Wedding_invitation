@@ -2,8 +2,8 @@
   "name": "wedding-invitation",
   "version": "0.1.0",
   "description": "A wedding invitation web page template",
-  "author": "Changkwon Lee <eckdrnjs@gmail.com> (https://imkwony.github.io/)", 
-  "Original author" : "juhonamnam.github.io",
+  "author": "Changkwon Lee <eckdrnjs@gmail.com> (https://imkwony.github.io/)",
+  "Original author": "juhonamnam.github.io",
   "license": "MIT",
   "private": true,
   "homepage": "https://imkwony.github.io/Wedding_invitation/",
@@ -12,7 +12,7 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "predeploy": "npm run build", 
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
   "dependencies": {
