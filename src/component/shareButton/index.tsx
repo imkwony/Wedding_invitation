@@ -90,3 +90,5 @@ export const ShareButton = () => {
     </LazyDiv>
   )
 }
+
+console.log("VITE_SERVER_URL =", FULL_WEB_URL)
