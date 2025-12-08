@@ -14,7 +14,7 @@ export const WEDDING_DATE_FORMAT = `YYYY년 MMMM D일 dddd A h시${WEDDING_DATE.
 
 // 예식 당월 휴무일. 켈린더에 표시하기 위함.
 // 예: 예식일 8월 -> 8월 15일 광복절
-export const HOLIDAYS = [15]
+export const HOLIDAYS = []
 
 export const LOCATION = "서울대학교 연구공원 웨딩홀"
 export const LOCATION_ADDRESS = "서울시 관악구 관악로 1, 연구공원 본관 1층"
@@ -39,52 +39,52 @@ export const KMAP_PLACE_ID = 8634826
 
 export const BRIDE_FULLNAME = "신혜민"
 export const BRIDE_FIRSTNAME = "혜민"
-export const BRIDE_TITLE = "차녀"
+export const BRIDE_TITLE = "딸"
 export const BRIDE_FATHER = "신상진"
 export const BRIDE_MOTHER = "윤해심"
 export const BRIDE_INFO = [
   {
     relation: "신부",
     name: BRIDE_FULLNAME,
-    phone: "010-0000-0000",
-    account: "우리은행 0000000000000",
+    phone: "010-2446-2091",
+    account: "우리은행 1002354086162",
   },
   {
     relation: "신부 아버지",
     name: BRIDE_FATHER,
-    phone: "010-0000-0000",
+    phone: "010-5284-1058",
     account: "하나은행 00000000000",
   },
   {
     relation: "신부 어머니",
     name: BRIDE_MOTHER,
-    phone: "010-0000-0000",
+    phone: "010-2911-2091",
     account: "하나은행 00000000000000",
   },
 ]
 
 export const GROOM_FULLNAME = "이창권"
 export const GROOM_FIRSTNAME = "창권"
-export const GROOM_TITLE = "장남"
+export const GROOM_TITLE = "아들"
 export const GROOM_FATHER = "이일선"
 export const GROOM_MOTHER = "송필순"
 export const GROOM_INFO = [
   {
     relation: "신랑",
     name: GROOM_FULLNAME,
-    phone: "010-0000-0000",
-    account: "하나은행 00000000000000",
+    phone: "010-9863-2136",
+    account: "기업은행 00209248102018",
   },
   {
     relation: "신랑 아버지",
     name: GROOM_FATHER,
-    phone: "010-0000-0000",
+    phone: "010-9838-2136",
     account: "신한은행 000000000000",
   },
   {
     relation: "신랑 어머니",
     name: GROOM_MOTHER,
-    phone: "010-0000-0000",
-    account: "국민은행 000000000000",
+    phone: "010-9830-2136",
+    account: "하나은행 12391008810207",
   },
 ]
