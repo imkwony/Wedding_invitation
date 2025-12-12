@@ -25,23 +25,34 @@ export const Invitation = () => {
 
       <div className="break" />
 
-      <div className="content">"그대 같은 사람 하나</div>
-      <div className="content">세상에 있어서</div>
-      <div className="content">세상이 좀 더 따스하고</div>
-      <div className="break" />
-      <div className="content">서럽고도 벅찬 봄날이</div>
-      <div className="content">조금쯤 부드럽게</div>
-      <div className="content">흘러갑니다"</div>
-      <div className="break" />
+      <div className="content">
+        "그대 같은 사람 하나 <br />
+        세상에 있어서 <br />
+        세상이 좀 더 따스하고
+      </div>
+      <div className="content">
+        서럽고도 벅찬 봄날이 <br />
+        조금쯤 부드럽게 <br />
+        흘러갑니다"
+      </div>
       <div className="content">- 나태주 &lt;봄날의 이유&gt; 중</div>
       <div className="break" />
+      <div className="content">
+        세상을 좀 더 따스하게 만드는  <br />
+        봄날을 부드럽게 흘러가게 하는  <br />
+        사람을 만났습니다. 
+      </div>
+      <div className="content">
+        4월의 봄날,   <br />
+        저희 두 사람의 시작을   <br />
+        함께해 주시면 감사하겠습니다.
+      </div>
       <div className="break" />
-      <div className="content">세상을 좀 더 따스하게 만드는 존재를 찾았습니다.</div>
-      <div className="content">봄날을 부드럽게 흘러가게 하는 사람을 찾았습니다.</div>
-      <div className="content">4월의 봄날, 저희 두 사람의 시작을 함께해 주시면 감사하겠습니다.</div>
+      <div className="content">
+        창권이 장가간다 오예~~   <br />
+        사랑해 혜밍빠오♥
+      </div>
       <div className="break" />
-      <div className="content">창권이 장가간다 오예~~</div>
-      <div className="content">사랑해 혜밍빠오♥</div>
       <div className="break" />
 
       <div className="name">
