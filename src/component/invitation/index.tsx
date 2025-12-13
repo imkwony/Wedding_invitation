@@ -26,14 +26,14 @@ export const Invitation = () => {
       <div className="break" />
 
       <div className="content">
-        "그대 같은 사람 하나 <br />
+        그대 같은 사람 하나 <br />
         세상에 있어서 <br />
         세상이 좀 더 따스하고
       </div>
       <div className="content">
         서럽고도 벅찬 봄날이 <br />
         조금쯤 부드럽게 <br />
-        흘러갑니다"
+        흘러갑니다
       </div>
       <div className="content">- 나태주 &lt;봄날의 이유&gt; 중</div>
       <div className="break" />
@@ -49,8 +49,7 @@ export const Invitation = () => {
       </div>
       <div className="break" />
       <div className="content">
-        창권이 장가간다 오예~~   <br />
-        사랑해 혜밍빠오♥
+        창권이 장가간다 오예
       </div>
       <div className="break" />
       <div className="break" />
