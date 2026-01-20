@@ -23,11 +23,11 @@ import image21 from "./image21.jpg"
 import image22 from "./image22.jpg"
 import image23 from "./image23.jpg"
 import image24 from "./image24.jpg"
-import image25 from "./image25.jpg"
-import image26 from "./image26.jpg"
-import image27 from "./image27.jpg"
-import image28 from "./image28.jpg"
-import image29 from "./image29.jpg"
+import image25 from "./image25.JPG"
+import image26 from "./image26.JPG"
+import image27 from "./image27.JPG"
+import image28 from "./image28.JPG"
+import image29 from "./image29.JPG"
 
 
 
