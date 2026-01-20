@@ -53,13 +53,13 @@ export const BRIDE_INFO = [
     relation: "신부 아버지",
     name: BRIDE_FATHER,
     phone: "010-5284-1058",
-    account: "하나은행 00000000000",
+    account: "신한은행 37004507738",
   },
   {
     relation: "신부 어머니",
     name: BRIDE_MOTHER,
     phone: "010-2911-2091",
-    account: "하나은행 00000000000000",
+    account: "국민은행 51132501005642",
   },
 ]
 
