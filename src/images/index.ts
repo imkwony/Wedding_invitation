@@ -28,6 +28,7 @@ import image26 from "./image26.JPG"
 import image27 from "./image27.jpg"
 import image28 from "./image28.JPG"
 import image29 from "./image29.JPG"
+import image30 from "./image30.jpg"
 
 
 
@@ -63,4 +64,5 @@ export const GALLERY_IMAGES = [
   image27,
   image28,
   image29,
+  image30,
 ]
