@@ -48,10 +48,12 @@ export const Invitation = () => {
         함께해 주시면 감사하겠습니다.
       </div>
       <div className="break" />
+      {/*
       <div className="content">
-        창권이 장가간다 오예
+        창권이 장가간다 오예 
       </div>
       <div className="break" />
+      */}
       <div className="break" />
 
       <div className="name">
